@@ -1,0 +1,52 @@
+/* ███████╗██╗     ███████╗███████╗██╗  ██╗ */
+/* ██╔════╝██║     ██╔════╝██╔════╝██║ ██╔╝ */
+/* ███████╗██║     █████╗  █████╗  █████╔╝  */
+/* ╚════██║██║     ██╔══╝  ██╔══╝  ██╔═██╗  */
+/* ███████║███████╗███████╗███████╗██║  ██╗ */
+/* ╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝ */
+
+/* ======================================== */
+/* ========= Sleek CSS by user404 ========= */
+/* ======================================== */
+
+:root {
+    --a1: white;
+    --a2: black;
+    --a3: blue;
+    --font: sans-serif;
+    --border: solid 1px;
+    --border-radius: 10px;
+    --font-size: 20px;
+}
+
+body {
+    font-size: var(--font-size);
+    font-family: var(--font);
+    background-color: var(--a2);
+    color: var(--a1);
+}
+
+a {color: var(--a1); transition: 200ms;}
+a:hover {color: var(--a3); transition: 200ms;}
+
+button, input, textarea {
+    padding: 10px;
+    font-size: var(--font-size);
+    transition: 200ms;
+    background-color: var(--a2);
+    color: var(--a1);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    margin-bottom: 10px;
+}
+
+button:hover, input:hover {
+    transition: 200ms;
+    color: var(--a2);
+    background-color: var(--a1);
+}
+
+button{cursor: pointer;}
+input {cursor: text;}
+
+fieldset{border-radius: var(--border-radius);}
